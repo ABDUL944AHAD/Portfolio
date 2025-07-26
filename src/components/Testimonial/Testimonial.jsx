@@ -4,32 +4,26 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import "swiper/css"
 import { Pagination } from 'swiper/modules'
 import "swiper/css/pagination"
-import profile1 from '../../../public/img/profile1.jpg'
-import profile2 from '../../../public/img/profile2.jpg'
-import profile3 from '../../../public/img/profile3.jpg'
-import profile4 from '../../../public/img/profile4.jpg'
-
-
 
 const Testimonial = () => {
   const clients = [
     {
-      img: profile1,
+      img: "/img/profile1.jpg",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed."
     },
     {
-      img: profile2,
+      img: "/img/profile2.jpg",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed."
     },
     {
-      img: profile3,
+      img: "/img/profile3.jpg",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed."
     },
     {
-      img: profile4,
+      img: "/img/profile4.jpg",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed."
     }
@@ -52,11 +46,10 @@ const Testimonial = () => {
       >
         {clients.map((client, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
                 <span>{client.review}</span>
-
               </div>
             </SwiperSlide>
           )
