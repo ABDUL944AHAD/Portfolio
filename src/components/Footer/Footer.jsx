@@ -1,5 +1,5 @@
 import './Footer.css'
-import Wave from '../../img/wave.png'
+import Wave from '../../../public/img/wave.png'
 import Insta from '@iconscout/react-unicons/icons/uil-instagram'
 import Facebook from '@iconscout/react-unicons/icons/uil-facebook'
 import Github from '@iconscout/react-unicons/icons/uil-github'

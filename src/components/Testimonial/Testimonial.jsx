@@ -4,10 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import "swiper/css"
 import { Pagination } from 'swiper/modules'
 import "swiper/css/pagination"
-import profile1 from '../../img/profile1.jpg'
-import profile2 from '../../img/profile2.jpg'
-import profile3 from '../../img/profile3.jpg'
-import profile4 from '../../img/profile4.jpg'
+import profile1 from '../../../public/img/profile1.jpg'
+import profile2 from '../../../public/img/profile2.jpg'
+import profile3 from '../../../public/img/profile3.jpg'
+import profile4 from '../../../public/img/profile4.jpg'
 
 
 

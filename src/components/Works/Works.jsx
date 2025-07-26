@@ -1,11 +1,12 @@
 import React from 'react'
 import './Works.css'
 
-import Upwork from '../../img/upwork.png'
-import Fiverr from '../../img/fiverr.png'
-import Amazon from '../../img/amazon.png'
-import Facebook from '../../img/facebook.png'
-import Shopify from '../../img/shopify.png'
+import Upwork from '../../../public/img/upwork.png'
+import Fiverr from '../../../public/img/fiverr.png'
+import Amazon from '../../../public/img/amazon.png'
+import Facebook from '../../../public/img/facebook.png'
+import Shopify from '../../../public/img/shopify.png'
+
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import { motion } from 'framer-motion'
